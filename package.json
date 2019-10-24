@@ -1,0 +1,69 @@
+{
+  "name": "ng-electron",
+  "version": "0.0.0",
+  "keywords": [
+    "angular8",
+    "electron",
+    "ngx-electron"
+  ],
+  "main": "main.js",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "electron": "ng build --base-href ./ && electron ."
+  },
+  "private": true,
+  "devDependencies": {
+    "@angular-devkit/build-angular": "0.803.6",
+    "@angular/cli": "8.3.6",
+    "@angular/common": "8.2.8",
+    "@angular/compiler": "8.2.8",
+    "@angular/compiler-cli": "8.2.8",
+    "@angular/core": "8.2.8",
+    "@angular/forms": "8.2.8",
+    "@angular/language-service": "8.2.8",
+    "@angular/platform-browser": "8.2.8",
+    "@angular/platform-browser-dynamic": "8.2.8",
+    "@angular/router": "8.2.8",
+    "@ngx-translate/core": "11.0.1",
+    "@ngx-translate/http-loader": "4.0.0",
+    "@types/jasmine": "3.3.16",
+    "@types/jasminewd2": "2.0.6",
+    "@types/mocha": "5.2.7",
+    "@types/node": "12.6.8",
+    "chai": "4.2.0",
+    "codelyzer": "5.1.0",
+    "conventional-changelog-cli": "2.0.21",
+    "core-js": "3.1.4",
+    "electron": "6.0.10",
+    "electron-builder": "21.2.0",
+    "electron-reload": "1.5.0",
+    "jasmine-core": "3.4.0",
+    "jasmine-spec-reporter": "4.2.1",
+    "karma": "4.2.0",
+    "karma-chrome-launcher": "3.0.0",
+    "karma-coverage-istanbul-reporter": "2.1.0",
+    "karma-jasmine": "2.0.1",
+    "karma-jasmine-html-reporter": "1.4.2",
+    "mocha": "6.2.0",
+    "npm-run-all": "4.1.5",
+    "rxjs": "6.5.3",
+    "spectron": "8.0.0",
+    "ts-node": "8.3.0",
+    "tslint": "5.18.0",
+    "typescript": "3.5.3",
+    "wait-on": "3.3.0",
+    "webdriver-manager": "12.1.5",
+    "zone.js": "0.9.1"
+  },
+  "engines": {
+    "node": ">=10.9.0"
+  },
+  "dependencies": {
+    "ngx-electron": "^2.2.0"
+  }
+}
