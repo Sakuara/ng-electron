@@ -1,22 +1,15 @@
 import { Component } from '@angular/core';
-import { ElectronService } from 'ngx-electron';
+import { Router } from "@angular/router";
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  template: '<router-outlet></router-outlet>'
 })
 export class AppComponent {
-  title = 'ng-electron';
-
+  
   constructor(
-    private electronService: ElectronService,
+    
   ) {
 
-  }
-
-  openWindow() {
-    this.electronService.shell.beep();
-    this.electronService.shell.openExternal('http://baidu.com');
   }
 }

@@ -1,11 +1,13 @@
 const {
   app,
-  BrowserWindow
+  BrowserWindow,
+  Menu
 } = require('electron')
 const url = require("url");
 const path = require("path");
 
-let appWindow
+let appWindow;
+let template = [];
 
 function initWindow() {
   appWindow = new BrowserWindow({
@@ -27,7 +29,9 @@ function initWindow() {
 
   // Initialize the DevTools.
   appWindow.webContents.openDevTools()
-
+  
+  const menu = Menu.buildFromTemplate(template);
+  Menu.setApplicationMenu(menu);
   appWindow.on('closed', function () {
     appWindow = null
   })

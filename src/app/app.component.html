@@ -1,3 +1,7 @@
-<button (click)="openWindow()">打开浏览器窗口</button>
-
+<button nz-button nzType="primary" (click)="openWindow()">打开浏览器窗口</button>
+<button nz-button nzType="primary" (click)="openInnerWindow()">打开内部浏览器窗口</button>
+<a nz-button nzType="danger" nzShape="circle" href="http://baidu.com">open baidu</a>
+<button nz-button nzType="primary" [nzSize]="size" nzShape="round">
+  <i nz-icon nzType="download"></i>Download
+</button>
 <router-outlet></router-outlet>
