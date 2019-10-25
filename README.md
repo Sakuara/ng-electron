@@ -2,9 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.0 and [Electron](https://electronjs.org) version 6.0.10.
 
-## How to run the app?
+## How to run the app
 
-Run `npm run electron`, just so so. 
+Run `npm run electron`, just so so.
 
 ## Code scaffolding
 

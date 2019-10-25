@@ -4,7 +4,8 @@
   "keywords": [
     "angular8",
     "electron",
-    "ngx-electron"
+    "ngx-electron",
+    "ng-zorro"
   ],
   "main": "main.js",
   "scripts": {
